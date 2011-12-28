@@ -80,8 +80,12 @@ if (isset($_SERVER['KOHANA_ENV']))
  * - boolean  caching     enable or disable internal caching                 FALSE
  */
 Kohana::init(array(
+<<<<<<< HEAD
 	'base_url'   => '/PHP-Tasker/index.php',
         'index_file' => 'index.php'
+=======
+	'base_url'   => '/',
+>>>>>>> b89effc5b3a21bed9eb9eb6ae8ff0776df152165
 ));
 
 /**
@@ -101,12 +105,19 @@ Kohana::modules(array(
 	// 'auth'       => MODPATH.'auth',       // Basic authentication
 	// 'cache'      => MODPATH.'cache',      // Caching with multiple backends
 	// 'codebench'  => MODPATH.'codebench',  // Benchmarking tool
+<<<<<<< HEAD
 	'database'   => MODPATH.'database',   // Database access
+=======
+	// 'database'   => MODPATH.'database',   // Database access
+>>>>>>> b89effc5b3a21bed9eb9eb6ae8ff0776df152165
 	// 'image'      => MODPATH.'image',      // Image manipulation
 	// 'orm'        => MODPATH.'orm',        // Object Relationship Mapping
 	// 'unittest'   => MODPATH.'unittest',   // Unit testing
 	// 'userguide'  => MODPATH.'userguide',  // User guide and API documentation
+<<<<<<< HEAD
         'migrations' => MODPATH.'migrations',
+=======
+>>>>>>> b89effc5b3a21bed9eb9eb6ae8ff0776df152165
 	));
 
 /**
